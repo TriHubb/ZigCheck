@@ -1,0 +1,60 @@
+name: build web
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/build.yml'
+      - 'web'
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout main
+      uses: actions/checkout@v5
+      with:
+        ref: main
+        fetch-depth: 1
+
+    - name: Build
+      run: |
+        cd web
+        npm ci
+        npm run build
+
+    - name: Upload built web
+      uses: actions/upload-artifact@v4
+      with:
+        name: web
+        path: web/dist
+
+    - name: Checkout web
+      uses: actions/checkout@v5
+      with:
+        ref: web
+        fetch-depth: 1
+
+    - name: Cleanup previous web
+      run: rm -rf *
+
+    - name: Download built web
+      uses: actions/download-artifact@v5
+      with:
+        name: web
+        path: .
+
+    - name: Set up git config
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Commit and push changes
+      run: |
+        git add .
+        git commit -m "build web: ${{ github.run_number}}" || echo "No changes to commit"
+        git push origin web
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
