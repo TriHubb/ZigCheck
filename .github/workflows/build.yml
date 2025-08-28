@@ -38,7 +38,7 @@ jobs:
         fetch-depth: 1
 
     - name: Cleanup previous web
-      run: rm -rf *
+      run: find . -mindepth 1 -maxdepth 1 ! -name 'CNAME' ! -name '.*' -exec rm -rf {} +
 
     - name: Download built web
       uses: actions/download-artifact@v5
