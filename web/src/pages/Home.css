@@ -1,0 +1,54 @@
+.content {
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.normal-text {
+    text-align: left;
+}
+
+.special-color {
+    background: linear-gradient(90deg, #55afd6, #2e6bcd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.transpatent-btn {
+    width: fit-content;
+    font-size: 1.5rem;
+    border: black solid 2px;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: left;
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.grid-item h2 {
+    margin-top: 0;
+}
