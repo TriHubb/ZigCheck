@@ -1,0 +1,12 @@
+{
+    "login_greeting": "Welcome Back",
+    "login_description": "Sign in to your account",
+    "login_with_google": "Log in with Google",
+    "login_with_github": "Log in with GitHub",
+    "or": "or",
+    "email": "Email",
+    "password": "Password",
+    "no_account": "Don't have an account?",
+    "signup_now": "Sign Up Now",
+    "signin": "Sign In"
+}
