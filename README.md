@@ -2,7 +2,8 @@
 
 **ZigCheck** is a smart system that verifies and validates vehicle information quickly and accurately.
 
-This project was developed by **Team TriHard** for **Code Nection 2025**, under the **Industrial Collaboration track**.
+This project was developed by **Team TriHard** for **Code Nection 2025**, under the **Industrial Collaboration track**(Smart Vehicle Data Validation & Error Detection by BJAK
+). 
 
 Presentation Video: [Watch here](https://youtu.be/3NksONq0ejg)
 
