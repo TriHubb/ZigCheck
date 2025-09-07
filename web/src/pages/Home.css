@@ -108,3 +108,10 @@
 .about-section-wrapper.visible > *:nth-child(3) {
   animation-delay: 0.4s;
 }
+
+@media (max-width: 768px) {
+  .center-text,
+  .grid-container {
+    max-width: calc(100% - 40px);
+  }
+}
