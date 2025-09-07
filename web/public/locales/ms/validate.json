@@ -1,0 +1,13 @@
+{
+    "validate_title": "<1>Sahkan</1> maklumat kenderaan anda",
+    "declaration": "Sistem ini mengesahkan dan membetulkan input pengguna (nombor pendaftaran, butiran kenderaan, dan banyak lagi) dalam masa nyata, menjadikan proses lebih cepat, lancar, dan bebas ralat. Demo ini mempamerkan aplikasinya dalam aliran perbandingan insurans kenderaan BJAK.",
+    "next": "Seterusnya",
+    "upload_box_text": "Seret dan lepas atau klik untuk memuat naik .png, .jpg, .pdf",
+    "plate_no": "Nombor Pendaftaran",
+    "owner_nric": "NRIC Pemilik Kenderaan",
+    "vehicle_make": "Buatan Kenderaan",
+    "vehicle_model": "Model Kenderaan",
+    "year_of_manufacturer": "Tahun Pembuatan",
+    "engine_capacity": "Kapasiti Enjin (CC)",
+    "confirm": "Sahkan"
+}

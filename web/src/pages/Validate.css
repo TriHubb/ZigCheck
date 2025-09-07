@@ -1,0 +1,98 @@
+.declaration {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: left;
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+
+.bottom-btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.next-btn {
+    margin-left: auto;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 50px;
+    z-index: 10;
+}
+
+
+.validation-page {
+    width: 100%;
+    height: min-content;
+    margin: 30px 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-step {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 2px;
+    transition: all 0.5s ease;
+    opacity: 0;
+    max-height: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.form-step.active {
+    opacity: 1;
+    max-height: 1000px;
+    pointer-events: auto;
+}
+
+.input-group {
+    text-align: left;
+}
+
+.input-group p {
+    margin: 5px 0;
+}
+
+.input-group input {
+    font-size: inherit;
+    padding: 15px 20px;
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.upload-box p {
+    margin: 0;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.progress-bar div {
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+    width: 0%;
+}

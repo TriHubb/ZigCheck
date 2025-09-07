@@ -1,0 +1,20 @@
+{
+  "home_title": "Cuba <1>sahkan</1> maklumat kenderaan anda",
+  "home_description": "Sistem ini membantu mengesahkan data kenderaan dengan menggunakan pelbagai sumber maklumat. Ia boleh mengesan ralat, mencadangkan pembetulan, dan melengkapkan maklumat kenderaan secara automatik semasa anda membuat permohonan insurans.",
+  "try_now": "Teruskan",
+  "features_title": "Fungsi",
+  "feature_1_title": "Auto Isi (OCR)",
+  "feature_1_description": "Ekstrak teks daripada dokumen yang dimuat naik, Sijil Pemilikan Kenderaan (VOC), untuk mengisi maklumat kenderaan secara automatik.",
+  "feature_2_title": "Pengesahan Plat",
+  "feature_2_description": "Sahkan nombor plat kenderaan dengan rekod dipercayai. Auto isi butiran melalui pangkalan data atau API.",
+  "feature_3_title": "Pengesahan Model",
+  "feature_3_description": "Sahkan jenama, model, dan tahun kenderaan dengan rekod dipercayai. Semak masa nyata melalui pangkalan data atau API.",
+  "feature_4_title": "Lain-lain",
+  "feature_4_description": "Betulkan ejaan. Sahkan nombor telefon – pastikan format betul dan boleh dihubungi. Sahkan emel – semak alamat emel dan pastikan peti masuk tersedia untuk komunikasi.",
+  "about_title": "Tentang",
+  "about_description_1": "ZigCheck ialah sistem pintar yang direka untuk mengesahkan dan mengesahkan maklumat kenderaan dengan pantas dan tepat. Dengan menggunakan pelbagai sumber data yang dipercayai dan pembelajaran mesin, sistem ini dapat mengesan ralat, mencadangkan pembetulan, dan melengkapkan butiran yang hilang secara automatik. Ini membantu pengguna menjimatkan masa, mengelakkan kesilapan, dan memastikan data yang boleh dipercayai semasa memohon insurans atau perkhidmatan berkaitan kenderaan yang lain.",
+  "about_description_2": "Projek ini adalah sebahagian daripada Code Nection 2025, yang dibangunkan oleh pasukan kami, TriHard. Trek pilihan kami ialah Kolaborasi Industri.",
+  "about_description_3": "Sila beri maklum balas kepada kami di GitHub atau melalui borang:",
+  "github_button": "GitHub",
+  "form_button": "Borang"
+}

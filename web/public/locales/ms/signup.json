@@ -1,0 +1,15 @@
+{
+    "signup_greeting": "Daftar Akaun",
+    "signup_description": "Masukkan maklumat peribadi untuk buka akaun",
+    "google": "Google",
+    "github": "GitHub",
+    "or": "or",
+    "username": "Username",
+    "email": "Emel",
+    "password": "Kata Laluan",
+    "signup": "Daftar",
+    "password_error_length": "Kata laluan mesti sekurang-kurangnya 8 aksara.",
+    "password_error_uppercase": "Kata laluan mesti mengandungi sekurang-kurangnya satu huruf besar.",
+    "password_error_lowercase": "Kata laluan mesti mengandungi sekurang-kurangnya satu huruf kecil.",
+    "password_error_special": "Kata laluan mesti mengandungi sekurang-kurangnya satu aksara khas."
+}

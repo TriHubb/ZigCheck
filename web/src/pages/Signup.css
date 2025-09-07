@@ -1,0 +1,60 @@
+h1 {
+    margin-bottom: 0;
+}
+
+.subheader {
+    margin: 5px;
+}
+
+.quick-signup-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.quick-signup-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 15px 0;
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-group {
+    text-align: left;
+}
+
+.input-group p {
+    margin: 5px 0;
+}
+
+.input-container input {
+    font-size: inherit;
+    padding: 15px 20px;
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.black-btn {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.pwd-reminder {
+    font-size: 0.8rem;
+}

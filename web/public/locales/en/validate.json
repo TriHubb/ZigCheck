@@ -1,0 +1,13 @@
+{
+    "validate_title": "<1>Validate</1> your vehicle info",
+    "declaration": "The system automatically validates and corrects user inputs (plate number, vehicle details, and more) in real time, making the process faster, smoother, and error-free. This demo showcases its application within BJAK’s vehicle insurance comparison flow.",
+    "next": "Next",
+    "upload_box_text": "Drag and drop or click to upload .png, .jpg, .pdf",
+    "plate_no": "Plate Number",
+    "owner_nric": "Vehicle Owner NRIC",
+    "vehicle_make": "Vehicle Make",
+    "vehicle_model": "Vehicle Model",
+    "year_of_manufacturer": "Year of Manufacturer",
+    "engine_capacity": "Engine Capacity (CC)",
+    "confirm": "Confirm"
+}

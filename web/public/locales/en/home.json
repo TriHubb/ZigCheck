@@ -1,0 +1,20 @@
+{
+  "home_title": "Try <1>validate</1> your vehicle info",
+  "home_description": "This is a vehicle data validation system that leverages multiple data sources and machine learning algorithms to detect, suggest corrections, and auto-complete vehicle information during the insurace application process.",
+  "try_now": "Try now",
+  "features_title": "Features",
+  "feature_1_title": "OCR Autofill",
+  "feature_1_description": "Extracts text from uploaded documents Vehicle Ownership Certificate (VOC) to auto-fill vehicle information.",
+  "feature_2_title": "Plate Validation",
+  "feature_2_description": "Validates entered vehicle plate number against trusted records. Autofill details via external database or API.",
+  "feature_3_title": "Model Validation",
+  "feature_3_description": "Validates entered vehicle make, model, and year against trusted records. Verifies in real time via external database or API.",
+  "feature_4_title": "Others",
+  "feature_4_description": "Typo correction. Phone number validation, verifies phone number format and ensures it is active/reachable. Email validation, checks email syntax and confirms inbox availability for communications.",
+  "about_title": "About",
+  "about_description_1": "ZigCheck is a smart system designed to verify and validate vehicle information quickly and accurately. By using multiple trusted data sources and machine learning, the system can detect errors, suggest corrections, and auto-complete missing details. This helps users save time, avoid mistakes, and ensure reliable data when applying for insurance or other vehicle- related services.",
+  "about_description_2": "This project is part of Code Nection 2025, developed by our team TriHard, our chosen track is Industrial Collaboration.",
+  "about_description_3": "Free to give us feedback on github or form:",
+  "github_button": "GitHub",
+  "form_button": "Form"
+}
